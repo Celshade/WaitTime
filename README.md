@@ -25,17 +25,19 @@ numbers, and comments) has been removed.
 
 ## Requirements
 1. _**Python [3.7+]**_: Can be downloaded ->[here](https://www.python.org/)<-
+2. _**Pandas**_: Installable via `pip install pandas`.
+3. _**Openpyxl**_: Installable via `pip install openpyxl`.
 
 _Some older versions of python may work, but this has not been tested._
 ***
 
 ## Instructions
 This program was built for the CLI. Simply download the package, and
-run `py .\src\wait_time.py` (from the package directory) to start the
+run `py .\src\waittime.py` (from the package directory) to start the
 program. The example file can be used for testing purposes, as follows:
 
 (The **.\\** can be omitted if you're working from the package directory.) \
-`py .\src\wait_time.py` \
+`py .\src\waittime.py` \
 (At the prompt...) \
 `.\docs\example_schedule.txt`
 
@@ -46,7 +48,7 @@ examples for testing.
 
 
 **\*\*NOTE\*\*** \
-_Users may need to run `python .\src\wait_time.py` depending on their setup._
+_Users may need to run `python .\src\waittime.py` depending on their setup._
 ***
 
 For the most recent developments, please see branch [DEV](https://github.com/Celshade/WaitTime/tree/dev).
