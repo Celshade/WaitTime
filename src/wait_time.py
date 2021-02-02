@@ -31,11 +31,7 @@ def remove_empty_fields(iterable: iter, removable: str) -> list:
         iterable: The iterable to parse.
         removable: The element to remove.
     """
-    parsed_list = []
-    
-    for item in iterable:
-        if str(item) != removable:
-            parsed_list.append(item)
+    parsed_list = [item for item in iterable if str(item) != removable]
     return parsed_list
 
 
