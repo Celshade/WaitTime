@@ -7,10 +7,10 @@ _Parse oven scheduling data and output details in a more useful format_
 Welcome to WaitTime!
 
 WaitTime is a program built to automate the process of parsing specific KPI
-data from an Excel workbook. This Excel file contains weekly oven schedules -
-each tab representing its own week, and each cell representing one hour.
-WaitTime parses these spreadsheets and outputs the various KPIs in a simplified
-format.
+data from an Excel workbook. This Excel file contains a weekly schedule
+template - each worksheet represents its own week, and each cell represents one
+hour. WaitTime parses these worksheets and outputs the total counts for each
+type of delay that occurred in a simplified format.
 
 **\*\*Disclaimer\*\*** \
 This project was built for parsing very specific data which is organized in
@@ -39,7 +39,7 @@ program. The example file can be used for testing purposes, as follows:
 (The **.\\** can be omitted if you're working from the package directory.) \
 `py .\src\waittime.py` \
 (At the prompt...) \
-`.\docs\example_schedule.txt`
+`.\docs\example_schedule.xlsx`
 
 The program will prompt for a 'target week' - this refers to a tab in the
 Excel file. Each week begins on Monday and can be entered in the format of

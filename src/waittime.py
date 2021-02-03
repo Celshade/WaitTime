@@ -47,7 +47,7 @@ def parse_week(file_name: str, week: str) -> str:
         file_name: The file path to the excel file.
         week: The specified week [worksheet] that will be parsed.
     """
-    
+
     pos_hours = 1529  # Production: 5am Monday -> 12am Sunday * 11 ovens
     # The following are sub-catagories which identify the reason for lost time
     start_up = 0
